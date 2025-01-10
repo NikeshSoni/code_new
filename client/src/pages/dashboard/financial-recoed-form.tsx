@@ -40,8 +40,8 @@ const FinancialRecoedForm = () => {
                         type="text"
                         required
                         className="input"
-                    // value={description}
-                    // onChange={(e) => setDescription(e.target.value)}
+                        value={description}
+                        onChange={(e) => setDescription(e.target.value)}
                     />
                 </div>
                 <div className="form-field">
@@ -50,8 +50,8 @@ const FinancialRecoedForm = () => {
                         type="number"
                         required
                         className="input"
-                    // value={amount}
-                    // onChange={(e) => setAmount(e.target.value)}
+                        value={amount}
+                        onChange={(e) => setAmount(e.target.value)}
                     />
                 </div>
                 <div className="form-field">
@@ -59,8 +59,8 @@ const FinancialRecoedForm = () => {
                     <select
                         required
                         className="input"
-                    // value={category}
-                    // onChange={(e) => setCategory(e.target.value)}
+                        value={category}
+                        onChange={(e) => setCategory(e.target.value)}
                     >
                         <option value="">Select a Category</option>
                         <option value="Food">Food</option>
@@ -76,8 +76,8 @@ const FinancialRecoedForm = () => {
                     <select
                         required
                         className="input"
-                    // value={paymentMethod}
-                    // onChange={(e) => setPaymentMethod(e.target.value)}
+                        value={paymentMethod}
+                        onChange={(e) => setPaymentMethod(e.target.value)}
                     >
                         <option value="">Select a Payment Method</option>
                         <option value="Credit Card">Credit Card</option>
